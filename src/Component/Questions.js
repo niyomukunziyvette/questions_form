@@ -29,8 +29,10 @@ return(
         </div>
    <div className=" col-sm-3 ">
        <div className="sign">
-           <i className=" sticky far fa-sticky-note"></i>
-           <i className="cont fas fa-signature "></i>
+            
+           <i className=" sticky fas fa-sticky-note"></i>
+           <i className="ba  fas fa-bars"></i>
+           <i className="bar  fas fa-bars"></i>
            <i className="pencil fas fa-pencil-alt"></i>
       </div>  
      </div>
@@ -48,7 +50,7 @@ return(
 <div className="col-sm-5">
     <form>
       <div class="form-name">
-         <label className="key_values">Question</label>
+         <label className="key_values">Questions</label>
             <input class="form-control" 
             type="text" 
             placeholder="Write Your text here"

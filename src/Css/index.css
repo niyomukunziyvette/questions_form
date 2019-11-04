@@ -2,6 +2,8 @@
     color:#FAAE0A;
 }
 .title{
+    position: relative;
+    right:3%;
    font-size:40px;
     width: 870px;
     font-weight: bold;
@@ -17,34 +19,41 @@
     font-size:60px;
     transform: rotate(180deg);
     top:20%; 
-    left:30px;  
-    background: #E9EFF4;   
+    left:30px;   
 } 
 .pencil{
     position: relative;
     font-size:40px;
-    left:60px;
+    left:68px;
     color: #D13364;
-    top:20%;
+    top:10%;
     
 }
-/* .cont{
+.ba{
     position: relative;
-    padding:3px;
-    background:black;
-    font-size:60px;
-    width:100px;
-    height:100px;
-    color:whitesmoke;
-} */
+    left:47%;
+    top:35px;
+    width: 90px;
+    color: rgba(30, 69, 174, 0.5);
+}
+.bar{
+    position: relative;
+    left:-28%;
+    top:45px;
+    color: rgba(30, 69, 174, 0.5);
+}
+.sinare{
+    background:green;
+    color: white;
+}
+
 .sign{
  position: relative;
  background-color:  #49BFD4;
  border-radius:50%;
  width: 120px;
-height: 120px;
-color: white; 
-
+ height: 120px;
+ color: white;
 }
 
 .footer{
@@ -54,14 +63,15 @@ color: white;
     padding:50px;
     top:260px;
 }
+
 .save{
     position: relative;
     font-weight:bold;
     font-size:80%;
     font-style: normal; 
-    width:10px;
-     
+    width:10px;    
 }
+
 .line{
       
     background: #5031A9;
@@ -85,16 +95,46 @@ color: white;
     font-style: normal;
     font-weight: bold;
 }
+
 .middle{
     position: relative;
-    top:62px;
-   
+    top:62px; 
 }
+
 .table{
     position: relative;
     top:100px;
 }
+
 .tops{
     position: relative;
     top:26px;
 }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .sign{
+        position: relative;
+         width:120px;
+         left:330px;
+         margin-top:-130px;
+}
+.save{
+    position: relative;
+    width:98%;
+    right:170px;
+    top:30px; 
+}
+.line{
+    width:95%;
+}
+.logout{
+    position: relative;
+    left:70%;
+    margin-top:-35px;
+}
+.title{
+    width:60%;
+    left:4px;
+}
+  }
