@@ -29,7 +29,6 @@ return(
         </div>
    <div className=" col-sm-3 ">
        <div className="sign">
-            
            <i className=" sticky fas fa-sticky-note"></i>
            <i className="ba  fas fa-bars"></i>
            <i className="bar  fas fa-bars"></i>
@@ -49,7 +48,7 @@ return(
 </div>
 <div className="col-sm-5">
     <form>
-      <div class="form-name">
+      <div className="form-name">
          <label className="key_values">Questions</label>
             <input class="form-control" 
             type="text" 

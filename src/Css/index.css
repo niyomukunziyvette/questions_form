@@ -111,30 +111,75 @@
     top:26px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
     /* For mobile phones: */
-    .sign{
+.sign{
         position: relative;
-         width:120px;
-         left:330px;
-         margin-top:-130px;
+         width:120px;           
 }
 .save{
-    position: relative;
-    width:98%;
-    right:170px;
-    top:30px; 
+    font-size:40%;
+   
 }
 .line{
     width:95%;
 }
 .logout{
     position: relative;
-    left:70%;
-    margin-top:-35px;
+    left:10%;
+   
+}
+.title{
+    width: 440%;
+    left:4px;
+}
+.form-name{
+    position: relative;
+    left:28%;
+}
+  }
+  @media only screen and (max-width:575px) {
+   .logout{
+       position: relative;
+       width: 30%;
+       left:77%;
+       margin-top:-14%;
+   }   
+   .sign{
+       position: relative;
+       left:64%;
+       top:-100%;
+   }
+   small{
+       position: relative;
+       top:-600%;
+       
+   }
+   .form-name{
+    position: relative;
+    width: 50%;
+    margin-top:-30%;
+    margin-left:-25%;
+   
+}
+.save{
+    width: 80%;
+    right:40%;
+    font-size: 60%;
+    margin-top:10%;
+}
+.btn-danger{
+    position: relative;
+   left:50%;
+   top:-70%;
+   width:80%;
+  
+}
+.footer{
+    position: relative;
+    margin-top:-25%;
 }
 .title{
     width:60%;
-    left:4px;
 }
   }
