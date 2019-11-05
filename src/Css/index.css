@@ -153,6 +153,7 @@
    small{
        position: relative;
        top:-600%;
+       left:3%;
        
    }
    .form-name{
@@ -178,8 +179,14 @@
 .footer{
     position: relative;
     margin-top:-25%;
+    width:92%;
+    left:3%;
 }
 .title{
     width:60%;
+    left:3%;
+}
+.icons{
+    left:3%;
 }
   }
